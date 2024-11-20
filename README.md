@@ -8,3 +8,4 @@ Es un codigo basico en HTML como primera pracica, en donde se practican los conc
 1. Clona el repositorio:
    
    git clone https://github.com/UlisesAriasS/PracticaFinal.git
+   git pages https://ulisesariass.github.io/PracticaFinal/
