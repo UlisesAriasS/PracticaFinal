@@ -8,7 +8,6 @@ h1 {
     font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
 }
 h2 {
-    text-align: left; /* Centrar el texto */
     font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
     margin-top: 10px;    /* Margen superior de 50px */
     margin-right: 10px;  /* Margen derecho de 20px */
@@ -16,7 +15,6 @@ h2 {
     margin-left: 40px;   /* Margen izquierdo de 10px */
 }
 h3 {
-    text-align: left; /* Centrar el texto */
     font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
     margin-top: 10px;    /* Margen superior de 50px */
     margin-right: 10px;  /* Margen derecho de 20px */
@@ -25,7 +23,6 @@ h3 {
 }
 /* Cambiar el color de los párrafos */
 p {
-    color: gray; /* Texto gris */
     font-family: Arial, sans-serif; /* Estilo de fuente general */
     margin: 20px; /* 20px de margen en todos los lados */
 }
