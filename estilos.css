@@ -7,24 +7,19 @@ h1 {
     text-align: center; /* Centrar el texto */
     font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
 }
-h2 {
+.prueba1 {
     font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
     margin-top: 10px;    /* Margen superior de 50px */
     margin-right: 10px;  /* Margen derecho de 20px */
     margin-bottom: 10x; /* Margen inferior de 30px */
     margin-left: 40px;   /* Margen izquierdo de 10px */
 }
-h3 {
-    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
-    margin-top: 10px;    /* Margen superior de 50px */
-    margin-right: 10px;  /* Margen derecho de 20px */
-    margin-bottom: 10px; /* Margen inferior de 30px */
-    margin-left: 40px;   /* Margen izquierdo de 10px */
-}
-/* Cambiar el color de los párrafos */
 p {
-    font-family: Arial, sans-serif; /* Estilo de fuente general */
+    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
     margin: 20px; /* 20px de margen en todos los lados */
+}
+li {
+    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
 }
 .contenedor_img1 {
     display: flex;
@@ -32,7 +27,7 @@ p {
     align-items: Right;    /* Centra la imagen verticalmente */
     height: 80px;          /* Altura del contenedor */
     margin-top: -100px;    /* Margen superior de 50px */
-    margin-right: 400px;  /* Margen derecho de 20px */
+    margin-right: 380px;  /* Margen derecho de 20px */
     margin-bottom: 10x; /* Margen inferior de 30px */
     margin-left: 0px;   /* Margen izquierdo de 10px */
 }
