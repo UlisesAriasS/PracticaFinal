@@ -9,8 +9,9 @@ body {
 .parrafo1 {
     display: flex; /* Habilitar flexbox */
     align-items: center; /* Centrar verticalmente */
-    justify-content: space-around; /* Separar título e imagen */
+    justify-content: center; /* Separar título e imagen */
     flex-wrap: wrap; /* Reorganizar en columna si es necesario */
+    gap: 30px; /* Espaciado entre el texto y la imagen */
     padding: 0px; /* Espaciado interno */
     margin: 0px; /* Márgenes externos */
 }
