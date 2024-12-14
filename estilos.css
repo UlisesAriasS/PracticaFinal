@@ -21,6 +21,7 @@ h1 {
     font-size: 2rem; /* Tamaño de texto */
     text-align: center; /* Alinear el texto a la izquierda */
     margin: 0 20px 0 0; /* Margen derecho e izquierdo */
+    color: #bf930d;
 }
 
 .contenedor_img1 img {
