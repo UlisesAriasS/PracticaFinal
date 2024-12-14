@@ -1,33 +1,86 @@
 /* Estilo para el fondo de la página */
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #0a090e; /* Cambiar el color de fondo */
     color: gray; /* Color por defecto para todo el texto */
+    font-family: 'Playfair Display', sans-serif; /* Estilo de fuente general */
 }
+.parrafo1 {
+    display: flex; /* Habilitar flexbox */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-around; /* Separar título e imagen */
+    flex-wrap: wrap; /* Reorganizar en columna si es necesario */
+    padding: 0px; /* Espaciado interno */
+    margin: 0px; /* Márgenes externos */
+}
+
 h1 {
-    text-align: center; /* Centrar el texto */
-    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
+    flex: 1; /* Permitir que ocupe espacio proporcional */
+    font-size: 2rem; /* Tamaño de texto */
+    text-align: center; /* Alinear el texto a la izquierda */
+    margin: 0 20px 0 0; /* Margen derecho e izquierdo */
 }
-.prueba1 {
-    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
-    margin-top: 10px;    /* Margen superior de 50px */
-    margin-right: 10px;  /* Margen derecho de 20px */
-    margin-bottom: 10x; /* Margen inferior de 30px */
-    margin-left: 40px;   /* Margen izquierdo de 10px */
+
+.contenedor_img1 img {
+    align-items: center; /* Centrar verticalmente */
+    width: 100%; /* Imagen responsiva */
+    height: auto; /* Mantener proporciones */
+    border-radius: 10px; /* Bordes redondeados opcionales */
 }
-p {
-    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
-    margin: 20px; /* 20px de margen en todos los lados */
-}
-li {
-    font-family: Playfair Display, sans-serif; /* Estilo de fuente general */
-}
-.contenedor_img1 {
+
+.parrafo2 {
     display: flex;
-    justify-content: Right; /* Centra la imagen horizontalmente */
-    align-items: Right;    /* Centra la imagen verticalmente */
-    height: 80px;          /* Altura del contenedor */
-    margin-top: -100px;    /* Margen superior de 50px */
-    margin-right: 380px;  /* Margen derecho de 20px */
-    margin-bottom: 10x; /* Margen inferior de 30px */
-    margin-left: 0px;   /* Margen izquierdo de 10px */
+    justify-content: center; /* Separar título e imagen */
+    flex-wrap: wrap; /* Reorganizar en columna si es necesario */
+    padding: 0px; /* Espaciado interno */
+    margin: 0px; /* Márgenes externos */
 }
+
+.extras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Separar título e imagen */
+    align-items : center; /* Centrar verticalmente */
+    list-style: none;
+}
+
+.galeria-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.galeria-imagenes img {
+    width: 200px; 
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.cookie-footer {
+    position: fixed; /* Siempre visible al final de la pantalla */
+    bottom: 0; /* Pegado a la parte inferior */
+    left: 0;
+    right: 0;
+    background-color:#a6a99e;
+    color: #000; 
+    padding: 1px;
+    display: flex; /* Organiza el contenido de manera horizontal */
+    justify-content: center; /* Espacia el texto y el botón */
+    align-items: center;
+  }
+  
+  .cookie-footer button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .cookie-footer button:hover {
+    background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
+  }
